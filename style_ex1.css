@@ -1,0 +1,151 @@
+* {
+    margin: auto;
+    padding: 0px;
+    box-sizing: border-box;
+    max-width: 1200px;
+  }
+   
+
+  /*HEADER*/
+  header {
+    padding: 10px;
+    background-color: black;
+    margin: 10px;
+  }
+  nav {
+    padding: 10px;
+    background-color: darkslategrey;
+    margin: 10px;
+    display: flex;
+  }
+  .orangeHeader {
+    padding: 10px;
+    background-color: rgb(220, 110, 0);
+    margin: 10px;
+  }
+  .yellowDiv {
+    padding: 10px;
+    background-color: rgb(251, 255, 0);
+    margin: 10px;
+  }
+  .LightYellowDiv {
+    padding: 10px;
+    background-color: orange;
+    margin: 10px;
+  }
+  .redBox1 {
+    padding: 10px;
+    background-color: red;
+    margin: 10px;
+    width: 20%;
+  }
+  .redBox2 {
+    padding: 10px;
+    background-color: red;
+    margin: 10px;
+    width: 60%;
+  }
+
+  /*MAIN*/
+  main {
+    padding: 10px;
+    background-color: black;
+    margin: 10px;
+    display: flex;
+  }
+  article {
+    padding: 10px;
+    background-color: rgb(72, 68, 107);
+    margin: 10px;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  section {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    display: flex;
+  }
+  .blueBox1 {
+    padding: 10px;
+    background-color: rgb(18, 103, 206);
+    margin: 10px;
+    width: 50%;
+  }
+  .blueBox2 {
+    padding: 10px;
+    background-color: rgb(82, 151, 235);
+    margin: 10px;
+    width: 100%;
+  }
+  aside {
+    padding: 10px;
+    background-color: rgb(225, 85, 85);
+    margin: 10px;
+    width: 30%;
+  }
+
+  /*FOOTER*/
+  footer {
+    padding: 10px;
+    background-color: black;
+    margin: 10px;
+  }
+
+ /* RESPONSIVE LAPTOP*/
+ @media (min-width: 1025px) {
+   
+  }
+
+   /* RESPONSIVE TABLET*/
+  @media (min-width: 768px) and (max-width: 1024px) {
+    main {
+      background-color: yellow;
+      flex-direction: column;          
+    }
+    article {
+      width: auto;
+    }
+    aside{
+        width: auto;
+    }
+  }
+   /* RESPONSIVE PHONE*/
+  @media (min-width: 320px) and (max-width: 767px) {
+      nav{
+          flex-direction: column;
+      }
+      .redBox1{
+          width:auto;
+      }
+      .redBox2{
+          width:auto;}
+    main {
+      background-color: yellow;
+      flex-direction: column;          
+    }
+    article {
+      width: auto;
+      background-color: rgb(83, 127, 153);
+    }
+    section{
+        flex-direction: column;
+       
+    }
+    .blueBox1{
+        width:auto;
+        background-color: rgb(16, 149, 131);
+    }
+    .blueBox2{
+        background-color: aquamarine;
+    }
+    aside{
+        width: auto;
+        background-color: orange;
+    }
+    .LightYellowDiv{
+        background-color: beige;
+    }
+  }
